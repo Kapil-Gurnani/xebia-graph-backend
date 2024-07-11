@@ -33,7 +33,6 @@ const resolvers = {
                     class: starship_class
                 };
             }));
-            console.log(output)
             return {...peopleData, ...output};
         },
     },
